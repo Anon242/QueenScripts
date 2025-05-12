@@ -1,0 +1,1 @@
+avrdude -C avrdude.conf -p m8 -c arduino -P com5 -b 19200 -U flash:w:usbasp.atmega8.2011-05-28.hex

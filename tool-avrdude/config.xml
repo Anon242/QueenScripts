@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <configVersion>1</configVersion>
+  <updateCheck>1746632261</updateCheck>
+  <skipVersion>
+    <Major>0</Major>
+    <Minor>0</Minor>
+  </skipVersion>
+  <toolTips>true</toolTips>
+  <avrdudeLoc />
+  <avrdudeConfLoc />
+  <avrSizeLoc />
+  <windowLocation>
+    <X>365</X>
+    <Y>256</Y>
+  </windowLocation>
+  <language>russian</language>
+  <hiddenMCUs />
+  <hiddenProgrammers />
+  <previousSettings>
+    <programmer>usbasp</programmer>
+    <mcu>m328p</mcu>
+    <port>usb</port>
+    <baud>19200</baud>
+    <bitclock />
+    <flashFile>C:\Users\USER\Desktop\optiboot_atmega328.hex</flashFile>
+    <flashFormat>a</flashFormat>
+    <flashOp>w</flashOp>
+    <EEPROMFile />
+    <EEPROMFormat>a</EEPROMFormat>
+    <EEPROMOp>r</EEPROMOp>
+    <force>false</force>
+    <disableVerify>false</disableVerify>
+    <disableFlashErase>false</disableFlashErase>
+    <eraseFlashAndEEPROM>false</eraseFlashAndEEPROM>
+    <doNotWrite>false</doNotWrite>
+    <lfuse>0xFF</lfuse>
+    <hfuse>0xDE</hfuse>
+    <efuse>0xFD</efuse>
+    <setFuses>true</setFuses>
+    <lockBits>0xFF</lockBits>
+    <setLock>false</setLock>
+    <additional>-B 125kHz</additional>
+    <verbosity>0</verbosity>
+    <name />
+  </previousSettings>
+  <usePreviousSettings>true</usePreviousSettings>
+  <windowSize>
+    <Width>1040</Width>
+    <Height>647</Height>
+  </windowSize>
+  <checkForUpdates>true</checkForUpdates>
+</ConfigData>
