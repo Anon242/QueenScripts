@@ -49,9 +49,15 @@ if(fqbn_name == "arduino:avr:uno"):
     if(result.stdout.find("0xde\n0xff\n0xfd") == -1):
         print("\033[35mNew microcontroller detected, write FUSE...\033[0m")
         subprocess.run(f"{avrdude_path} -c usbasp -p m328p -P usb -b 19200 -B 125kHz -U lfuse:w:0xFF:m -U hfuse:w:0xDE:m -U efuse:w:0xFD:m", capture_output=True, text=True)
-else:
+elif(fqbn_name == "arduino:avr:mega:cpu=atmega2560"):
     mcu = "atmega2560"
-
+    result = subprocess.run(f"{avrdude_path} -c usbasp -p m2560 -P usb -b 19200 -B 125kHz -U hfuse:r:-:h -U lfuse:r:-:h -U efuse:r:-:h", capture_output=True, text=True)
+    if(result.stdout.find("0xd9\n0xff\n0xfd") == -1):
+        print("\033[35mNew microcontroller detected, write FUSE...\033[0m")
+        subprocess.run(f"{avrdude_path} -c usbasp -p m2560 -P usb -b 19200 -B 125kHz -U lfuse:w:0xFF:m -U hfuse:w:0xD9:m -U efuse:w:0xFD:m", capture_output=True, text=True)
+else:
+    print("\033[31mERROR!\033[0m")
+    exit()
 
 command = [
     avrdude_path,
