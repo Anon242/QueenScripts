@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ConfigData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <configVersion>1</configVersion>
-  <updateCheck>1746632261</updateCheck>
+  <updateCheck>1748941150</updateCheck>
   <skipVersion>
     <Major>0</Major>
     <Minor>0</Minor>
@@ -11,15 +11,15 @@
   <avrdudeConfLoc />
   <avrSizeLoc />
   <windowLocation>
-    <X>365</X>
-    <Y>256</Y>
+    <X>-1170</X>
+    <Y>113</Y>
   </windowLocation>
   <language>russian</language>
   <hiddenMCUs />
   <hiddenProgrammers />
   <previousSettings>
     <programmer>usbasp</programmer>
-    <mcu>m328p</mcu>
+    <mcu>m2560</mcu>
     <port>usb</port>
     <baud>19200</baud>
     <bitclock />
@@ -35,7 +35,7 @@
     <eraseFlashAndEEPROM>false</eraseFlashAndEEPROM>
     <doNotWrite>false</doNotWrite>
     <lfuse>0xFF</lfuse>
-    <hfuse>0xDE</hfuse>
+    <hfuse>0xD9</hfuse>
     <efuse>0xFD</efuse>
     <setFuses>true</setFuses>
     <lockBits>0xFF</lockBits>
