@@ -1,0 +1,42 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\variants\\mega"
+  },
+  {
+    "Sourcefile": "C:\\Program Files\\QueenScripts\\cache\\sketch\\inofile.ino.cpp",
+    "Include": "QueenUnisense3v1.h",
+    "Includepath": "C:\\Users\\USER\\Documents\\Arduino\\libraries\\QueenKit"
+  },
+  {
+    "Sourcefile": "C:\\Program Files\\QueenScripts\\cache\\sketch\\inofile.ino.cpp",
+    "Include": "SoftwareSerial.h",
+    "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\libraries\\SoftwareSerial\\src"
+  },
+  {
+    "Sourcefile": "C:\\Program Files\\QueenScripts\\cache\\sketch\\inofile.ino.cpp",
+    "Include": "iarduino_NeoPixel.h",
+    "Includepath": "C:\\Users\\USER\\Documents\\Arduino\\libraries\\iarduino_NeoPixel\\src"
+  },
+  {
+    "Sourcefile": "C:\\Program Files\\QueenScripts\\cache\\sketch\\inofile.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\libraries\\SoftwareSerial\\src\\SoftwareSerial.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\USER\\Documents\\Arduino\\libraries\\iarduino_NeoPixel\\src\\iarduino_NeoPixel.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
